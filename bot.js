@@ -8,8 +8,12 @@ client.on('ready', () => {
 })
 
 client.on('message', msg => {
-    if (msg.content === "oscar") {
-        msg.reply("You're dead to me!")
+    if (msg.content == "I love coding!") {
+        msg.react("❤️")
+    }
+
+    if (msg.content === "Teach me to code!") {
+        msg.channel.send("console.log(Hello World)")
     }
 })
 
