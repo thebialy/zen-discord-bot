@@ -14,7 +14,7 @@ client.on('message', msg => {
     }
 
     if (msg.content === "Teach me to code!") {
-        msg.channel.send("console.log(Hello World)")
+        msg.channel.send("https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ")
     }
 })
 
