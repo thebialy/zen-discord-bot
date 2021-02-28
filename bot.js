@@ -13,7 +13,7 @@ client.on('message', msg => {
         msg.react("❤️")
     }
 
-    if (msg.content === "Teach me to code!") {
+    if (msg.content === "console.log(code)") {
         msg.channel.send("https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ")
     }
 })
