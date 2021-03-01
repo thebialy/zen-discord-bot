@@ -19,6 +19,9 @@ client.on('message', msg => {
     if (msg.content === "{code}") {
         msg.channel.send("https://www.w3schools.com/")
     }
+    if (msg.content === "{wdn}") {
+        msg.channel.send("https://developer.mozilla.org/en-US/docs/Learn")
+    }
 })
 
 client.login(process.env.BOT_TOKEN)
