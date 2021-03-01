@@ -22,6 +22,9 @@ client.on('message', msg => {
     if (msg.content === "{wdn}") {
         msg.channel.send("https://developer.mozilla.org/en-US/docs/Learn")
     }
+    if (msg.content === "{css-cheatsheet}") {
+        msg.channel.send("https://htmlcheatsheet.com/css/")
+    }
 })
 
 client.login(process.env.BOT_TOKEN)
