@@ -31,6 +31,9 @@ client.on('message', msg => {
     if (msg.content === "{js-cheatsheet}") {
         msg.channel.send("https://html-css-js.com/js/")
     }
+    if (msg.content === "{stack}") {
+        msg.channel.send("https://stackoverflow.com/")
+    }
 })
 
 client.login(process.env.BOT_TOKEN)
