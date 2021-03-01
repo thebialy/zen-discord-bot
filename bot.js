@@ -28,6 +28,9 @@ client.on('message', msg => {
     if (msg.content === "{html-cheatsheet}") {
         msg.channel.send("https://html-css-js.com/html/")
     }
+    if (msg.content === "{js-cheatsheet}") {
+        msg.channel.send("https://html-css-js.com/js/")
+    }
 })
 
 client.login(process.env.BOT_TOKEN)
