@@ -16,6 +16,9 @@ client.on('message', msg => {
     if (msg.content === "console.log(code)") {
         msg.channel.send("https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ")
     }
+    if (msg.content === "console.log(code)") {
+        msg.channel.send("https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ")
+    }
 })
 
 client.login(process.env.BOT_TOKEN)
