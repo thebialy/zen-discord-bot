@@ -13,11 +13,11 @@ client.on('message', msg => {
         msg.react("❤️")
     }
 
-    if (msg.content === "console.log(code)") {
+    if (msg.content === "console.log(amcoder)") {
         msg.channel.send("https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ")
     }
     if (msg.content === "console.log(code)") {
-        msg.channel.send("https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ")
+        msg.channel.send("https://www.w3schools.com/")
     }
 })
 
